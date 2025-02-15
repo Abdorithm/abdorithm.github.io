@@ -31,12 +31,12 @@ twitter_username: Abdorithm
 github_username:  Abdorithm
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-
+remote_theme: jekyll/minima@v2.5.1
 minima:
   skin: dark
+
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
