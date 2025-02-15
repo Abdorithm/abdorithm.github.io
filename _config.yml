@@ -31,9 +31,14 @@ twitter_username: Abdorithm
 github_username:  Abdorithm
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-remote-theme
+
 minima:
   skin: dark
+  date_format: "%b %-d, %Y"
 
 plugins:
   - jekyll-feed
